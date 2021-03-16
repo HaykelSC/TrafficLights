@@ -1,7 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 import "../styles/index.scss";
 
-import trafficLight from "./component/TrafficLight.jsx";
+import TrafficLight from "./component/TrafficLight.jsx";
 
-ReactDOM.render(<trafficLight />, document.querySelector("#app"));
+ReactDOM.render(<TrafficLight />, document.querySelector("#app"));
